@@ -55,7 +55,7 @@ def parse_record(dblp, output):
         Path to output path.
 
     """
-
+    count = 0
     with open(output, 'w') as ofp:
         for genre, record in iterate_dblp(dblp):
             attrs = defaultdict(list)
@@ -74,6 +74,8 @@ def parse_record(dblp, output):
                     attrs[key] = attrs[key][0]
                 json.dump(dict(attrs), ofp)
                 ofp.write('\n')
+                count += 1
+                print(count)
             except ValueError as err:
                 print(err)
                 continue

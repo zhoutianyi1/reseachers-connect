@@ -1,0 +1,348 @@
+[
+    {
+        "author": [
+            "Paul Kocher",
+            "Daniel Genkin",
+            "Daniel Gruss",
+            "Werner Haas 0004",
+            "Mike Hamburg",
+            "Moritz Lipp",
+            "Stefan Mangard",
+            "Thomas Prescher 0002",
+            "Michael Schwarz 0001",
+            "Yuval Yarom"
+        ],
+        "title": "Spectre Attacks: Exploiting Speculative Execution."
+    },
+    {
+        "author": [
+            "Moritz Lipp",
+            "Michael Schwarz 0001",
+            "Daniel Gruss",
+            "Thomas Prescher 0002",
+            "Werner Haas 0004",
+            "Stefan Mangard",
+            "Paul Kocher",
+            "Daniel Genkin",
+            "Yuval Yarom",
+            "Mike Hamburg"
+        ],
+        "title": "Meltdown"
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "An Evaluation of Object-Oriented DBMS Developments: 1994 Edition."
+    },
+    {
+        "author": [
+            "Michael L. Brodie",
+            "Michael Stonebraker"
+        ],
+        "title": "DARWIN: On the Incremental Migration of Legacy Information Systems"
+    },
+    {
+        "author": [
+            "Mark F. Hornick",
+            "Joe D. Morrison",
+            "Farshad Nayeri"
+        ],
+        "title": "Integrating Heterogeneous, Autonomous, Distributed Applications Using the DOM Prototype."
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "Object Model Capabilities For Distributed Object Management."
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "Integrating Object-Oriented Applications and Middleware with Relational Databases."
+    },
+    {
+        "author": [
+            "Alejandro P. Buchmann",
+            "M. Tamer \u00d6zsu",
+            "Dimitrios Georgakopoulos"
+        ],
+        "title": "Towards a Transaction Management System for DOM."
+    },
+    {
+        "author": [
+            "Frank Manola",
+            "Sandra Heiler"
+        ],
+        "title": "A 'RISC' Object Model for Object System Interoperation: Concepts and Applications."
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "MetaObject Protocol Concepts for a RISC Object Model."
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "Object Data Language Facilities for Multimedia Data Types."
+    },
+    {
+        "author": [
+            "Frank Manola",
+            "Mark F. Hornick",
+            "Alejandro P. Buchmann"
+        ],
+        "title": "Object Data Model Facilities for Multimedia Data Types."
+    },
+    {
+        "author": [
+            "Frank Manola"
+        ],
+        "title": "Distributed Object Management Technology."
+    },
+    {
+        "author": [
+            "Farshad Nayeri",
+            "Benjamin Hurwitz"
+        ],
+        "title": "Experiments with Dispatching in a Distributed Object System."
+    },
+    {
+        "author": [
+            "Michael Stonebraker"
+        ],
+        "title": "Muffin: A Distributed Database Machine"
+    },
+    {
+        "author": [
+            "David Beech",
+            "Cetin Ozbutun"
+        ],
+        "title": "Object Oriented DBMS as a Generalization of Relational DBMS"
+    },
+    {
+        "author": [
+            "Krishna G. Kulkarni",
+            "Jim Melton",
+            "Jonathan Bauer",
+            "Mike Kelley"
+        ],
+        "title": "Inheritance for ADTs (revised)"
+    },
+    {
+        "author": [
+            "Phil Shaw"
+        ],
+        "title": "Modification of User Defined Types"
+    },
+    {
+        "author": [
+            "Jim Melton",
+            "Jonathan Bauer",
+            "Krishna G. Kulkarni"
+        ],
+        "title": "Object ADTs (with improvements for Value ADTs)"
+    },
+    {
+        "author": [
+            "David Beech"
+        ],
+        "title": "Unification of Value and Object ADTs"
+    },
+    {
+        "author": [
+            "Rolf Sander"
+        ],
+        "title": "Die Repr\u00e4sentation r\u00e4umlichen Wissens und die Behandlung von Einbettungsproblemen mit Quadtreedepiktionen"
+    },
+    {
+        "author": [
+            "Thomas Ludwig 0001"
+        ],
+        "title": "Algebraical Optimization of FTA-Expressions"
+    },
+    {
+        "author": [
+            "Werner Emde",
+            "Claus-Rainer Rollinger"
+        ],
+        "title": "Wissensrepr\u00e4sentation und Maschinelles Lernen"
+    },
+    {
+        "author": [
+            "Christoph Beierle",
+            "Udo Pletat",
+            "Hans Uszkoreit"
+        ],
+        "title": "An Algebraic Characterization of STUF"
+    },
+    {
+        "author": [
+            "Ulrike Rackow",
+            "Ido Dagan",
+            "Ulrike Schwall"
+        ],
+        "title": "A Combined Symbolic-Empirical Apprach for the Automatic Translation of Compounds"
+    },
+    {
+        "author": [
+            "Brigitte Bartsch-Sp\u00f6rl"
+        ],
+        "title": "Zur Systemarchitektur von LILOG"
+    },
+    {
+        "author": [
+            "Erich Gehlen",
+            "Burkhard Kehrbusch"
+        ],
+        "title": "Mengenorientierte Auswertung von Anfragen in der Logikprogrammiersprache PROLOG"
+    },
+    {
+        "author": [
+            "Markus H\u00f6hfeld",
+            "Gert Smolka"
+        ],
+        "title": "Definite Resolution over Constraint Languages"
+    },
+    {
+        "author": [
+            "Birgit Wesche"
+        ],
+        "title": "Dokumentation der Syntax der LILOG-Grammatik"
+    },
+    {
+        "author": [
+            "Christopher Habel"
+        ],
+        "title": "Cognitive Linguistics: The Processing of Spatial Concepts"
+    },
+    {
+        "author": [
+            "Thomas Ludwig 0001",
+            "Bernd Walter",
+            "Michael Ley",
+            "Albert Maier",
+            "Erich Gehlen"
+        ],
+        "title": "LILOG-DB: Database Support for Knowledge-Based Systems"
+    },
+    {
+        "author": [
+            "Thomas Ludwig 0001",
+            "Stefan Benzschawel",
+            "Erich Gehlen"
+        ],
+        "title": "Differential Closure Computation for General Horn-Clause Queries"
+    },
+    {
+        "author": [
+            "Egon B\u00f6rger"
+        ],
+        "title": "A Logical Operational Semantics of Full Prolog"
+    },
+    {
+        "author": [
+            "Michael Ley"
+        ],
+        "title": "Ein Fact Manager zur persistenten Speicherung variabel strukturierter komplexer Objekte"
+    },
+    {
+        "author": [
+            "Roland Seiffert"
+        ],
+        "title": "How could a good system of practical NLP look like?"
+    },
+    {
+        "author": [
+            "Gisela Sch\u00f6pke"
+        ],
+        "title": "M\u00f6glichkeiten des Einsatzes eines dreiwertigen Theorembeweisers"
+    },
+    {
+        "author": [
+            "Stefan B\u00f6ttcher"
+        ],
+        "title": "Attribute Inheritance Implemented on Top of a Relational Database System"
+    },
+    {
+        "author": [
+            "Ulrike Schwall"
+        ],
+        "title": "LMT - Machine Translation Demonstration"
+    },
+    {
+        "author": [
+            "Rudi Studer",
+            "Bernd Walter"
+        ],
+        "title": "Implementation Aspects of a Natural Language Understanding System in a Prolog/DB Environment"
+    },
+    {
+        "author": [
+            "Albert Maier",
+            "Michael Ley",
+            "Erich Gehlen"
+        ],
+        "title": "Sort Processing in a Deductive Database System"
+    },
+    {
+        "author": [
+            "Thomas Ludwig 0001",
+            "Bernd Walter"
+        ],
+        "title": "EFTA: A Database Retrieval Algebra for Feature Terms"
+    },
+    {
+        "author": [
+            "Toni Bollinger",
+            "Udo Pletat"
+        ],
+        "title": "Knowledge in Operation"
+    },
+    {
+        "author": [
+            "Christoph Beierle"
+        ],
+        "title": "An Overview on Planning Applications in PROTOS-L"
+    },
+    {
+        "author": [
+            "Carola Eschenbach"
+        ],
+        "title": "\u00dcber Ans\u00e4tze zur Darstellung von Konzepten und Prototypen"
+    },
+    {
+        "author": [
+            "Manfred Schmidt-Schau\u00df",
+            "Gert Smolka"
+        ],
+        "title": "Attributive Concept Descriptions with Unions and Complements"
+    },
+    {
+        "author": [
+            "Hans-Joachim Goltz"
+        ],
+        "title": "Ein praktischer Algorithmus f\u00fcr die E-Unifikation"
+    },
+    {
+        "author": [
+            "Claus-Rainer Rollinger"
+        ],
+        "title": "Simulation Sprachlichen Verstehens: Generelle Probleme bei der semantischen Interpretation der nat\u00fcrlichen Sprache"
+    },
+    {
+        "author": [
+            "Otthein Herzog"
+        ],
+        "title": "The Institute for Knowledge Based Systems in the IBM Germany Scientific Center"
+    },
+    {
+        "author": [
+            "Bernhard Beckert"
+        ],
+        "title": "Konzeption und Implementierung von Gleichheit f\u00fcr einen tableau-basierten Theorem-Beweiser"
+    }
+]
