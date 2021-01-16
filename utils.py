@@ -18,7 +18,7 @@ def averagePooling(matrix1, matrix2):
     matrix1, matrix2 = matrix2, matrix1
 
   windowSize = len(matrix2) - len(matrix1) + 1  # get the window size for sliding
-  matrixProcessed = np.zeros(len(matrix1))      # some useless initialization, that's why the return processed matrix is sliced from [1:]
+  matrixProcessed = np.zeros(len(matrix1[0]))      # some useless initialization, that's why the return processed matrix is sliced from [1:]
 
   # sliding process begins
   for i in range(len(matrix2) - windowSize + 1):
