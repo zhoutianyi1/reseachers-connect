@@ -1,9 +1,11 @@
 import json
 import sys
 from collections import defaultdict
+import numpy as np
 from gensim import models
 
 from utils import tokenize, stem, cosineSimilarity
+####### Reference url: https://machinelearningmastery.com/develop-word-embeddings-python-gensim/ #########
 
 objs = []    
 sentences = []  # sentences for training word2vec model
@@ -18,6 +20,7 @@ with open('trial_data.json') as f:
   data = json.load(f)
   length = len(data)
   for i, obj in enumerate(data):
+    if i > 50: break
     processed = [stem(word.lower()) for word in tokenize(obj['title']) if word.lower() not in ignore and not word.isdigit()] 
     obj["processed"] = processed
     sentences.append(processed)
@@ -39,21 +42,27 @@ for key in paper2author:
   for stemmedWord in paper2author[key]['processed']:
     vector.append(model[stemmedWord])
   paper2author[key]['feature'] = vector 
-
+print('trained done')
 # get cosSim for each pair
 for key1 in paper2author:
   for key2 in paper2author:
     paper1, paper2 = paper2author[key1], paper2author[key2]
     index1, index2 = paper1['index'], paper2['index']
     if index1 >= index2: continue    #  only compare when index1 < index2 to minimize comparisons
-
-    cosSim = cosineSimilarity(paper1['feature'], paper2['feature'])
-    paper1['similarity'][index2] = paper2['similarity'][index1] = cosSim
-
-
+    try: 
+      cosSim = cosineSimilarity(paper1['feature'], paper2['feature'])
+      paper1['similarity'][index2] = paper2['similarity'][index1] = cosSim
+    except:  # some edge case has research paper title with only number
+      continue
+print('loop done')
+model.save('model.bin')
+for key in paper2author:
+  for i, arr in enumerate(paper2author[key]['feature']):
+    paper2author[key]['feature'][i] = paper2author[key]['feature'][i].tolist()
 print(paper2author)
+with open('processed.json', 'w') as f:
+  json.dump(paper2author, f, indent=4)
 
-# Reference
 ###########  Ex: paper2author:  ###########
 # { 'Machine Translation Demonstration': {'author': ['Ulrike Schwall'],
 #                                         'processed': ['lmt', '-', 'machin', 'translat', 'demonstr'],
@@ -74,8 +83,6 @@ print(paper2author)
 # {'Christopher Habel': ['Cognitive Linguistics: The Processing of Spatial Concepts'],
 #  'Stefan Böttcher': ['Attribute Inheritance Implemented on Top of a Relational Database System']
 # }
-# model = models.Word2Vec(sentences, min_count=1, size=10, window=2)
-# # summarize the loaded model
-# words = list(model.wv.vocab)
+
 
 

@@ -3,11 +3,14 @@ import json
 trialData = []
 with open('dblp_parser_python/dblp.json') as f:
   for i, obj in enumerate(f):
-    if i > 50:
+    if i > 10000:
       break
     # convert str to object
     toAdd = {}
-    convert = eval(obj)
+    try: 
+      convert = eval(obj)
+    except:
+      continue
 
     if 'author' not in convert or 'title' not in convert: continue
 

@@ -16,7 +16,7 @@ def averagePooling(matrix1, matrix2):
   # let matrix1 be the shorter array, matrix2 be the longer
   if len(matrix1) > len(matrix2): 
     matrix1, matrix2 = matrix2, matrix1
-
+  # try:
   windowSize = len(matrix2) - len(matrix1) + 1  # get the window size for sliding
   matrixProcessed = np.zeros(len(matrix1[0]))      # some useless initialization, that's why the return processed matrix is sliced from [1:]
 
@@ -28,8 +28,10 @@ def averagePooling(matrix1, matrix2):
   return matrix1, matrixProcessed[1:]
 
 
-def cosineSimilarity(matrix1, matrix2):
+
+def cosineSimilarity(matrixOne, matrixTwo):
   # matrix one and two should be of same length, if not, pass matrices into averagePooling
+  matrix1, matrix2 = np.array(matrixOne), np.array(matrixTwo) 
   if len(matrix1) != len(matrix2):
     matrix1, matrix2 = averagePooling(matrix1, matrix2)
 
