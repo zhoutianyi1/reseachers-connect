@@ -1,0 +1,5 @@
+.DS_Store
+*.pyc
+__pycache__/
+conect_venv/
+.vscode
