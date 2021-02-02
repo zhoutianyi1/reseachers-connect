@@ -2,21 +2,20 @@ import json
 
 objectList = []
 
-#since the json file is too large, we will limit the num of objects
-# num_limit = 1000
+#since the json file is too large, we will limit the num of objects for testing
+num_limit = 10000
 
 print("Started Reading JSON file which contains multiple JSON document")
-with open('data set/dblp_parser_python/dblp.json')  as f:
+with open('../data set/dblp_parser_python/dblp.json')  as f:
 
     for jsonObj in f:
-        # if num_limit == 0:
-        #     break
-        # else:
-        paperDict = json.loads(jsonObj)
-        # print(paperDict)
-        # break
-        objectList.append(paperDict)
-            # num_limit -= 1
+        if num_limit == 0:
+            break
+        else:
+            paperDict = json.loads(jsonObj)
+            # print(paperDict)
+            objectList.append(paperDict)
+            num_limit -= 1
 
 # now we will take the title and author information
 paper_info = []
@@ -37,5 +36,6 @@ for obj in objectList:
 
     paper_info.append(paper_author_pair)
     
-
+print(len(objectList))
 f.close()
+
